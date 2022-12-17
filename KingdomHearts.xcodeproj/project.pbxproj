@@ -16,6 +16,7 @@
 		7E626344294D43F700A50F41 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E626343294D43F700A50F41 /* HomeView.swift */; };
 		7E626349294D44DB00A50F41 /* ViewCodeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E626348294D44DB00A50F41 /* ViewCodeProtocol.swift */; };
 		7E62634C294D4D5E00A50F41 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7E62634B294D4D5E00A50F41 /* SnapKit */; };
+		7E6F1AE7294DE40000EDA4F9 /* UIView+Exte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6F1AE6294DE40000EDA4F9 /* UIView+Exte.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		7E62633F294D43AC00A50F41 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7E626343294D43F700A50F41 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7E626348294D44DB00A50F41 /* ViewCodeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodeProtocol.swift; sourceTree = "<group>"; };
+		7E6F1AE6294DE40000EDA4F9 /* UIView+Exte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Exte.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		7E62630B294D2B9F00A50F41 /* KingdomHearts */ = {
 			isa = PBXGroup;
 			children = (
+				7E6F1AE5294DE3F200EDA4F9 /* Extensions */,
 				7E62633C294D2BE200A50F41 /* AppDelegate */,
 				7E62633D294D2C5300A50F41 /* Resources */,
 				7E626347294D44C600A50F41 /* Protocols */,
@@ -172,6 +175,14 @@
 				7E626348294D44DB00A50F41 /* ViewCodeProtocol.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		7E6F1AE5294DE3F200EDA4F9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7E6F1AE6294DE40000EDA4F9 /* UIView+Exte.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E6F1AE7294DE40000EDA4F9 /* UIView+Exte.swift in Sources */,
 				7E62630D294D2B9F00A50F41 /* AppDelegate.swift in Sources */,
 				7E626344294D43F700A50F41 /* HomeView.swift in Sources */,
 				7E626349294D44DB00A50F41 /* ViewCodeProtocol.swift in Sources */,

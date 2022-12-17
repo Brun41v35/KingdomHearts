@@ -7,9 +7,8 @@ final class HomeView: UIView {
     
     private lazy var bottomView: UIView = {
         let view = UIView()
-        view.layer.cornerRadius = 20
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.backgroundColor = .white
+        view.cornerRadiusTopView()
         return view
     }()
     
